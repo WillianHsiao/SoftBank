@@ -22,10 +22,10 @@ namespace SoftBank
         {
             app.UseIISPlatformHandler();
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("Hello World!");
+            //});
         }
 
         // Entry point for the application.
